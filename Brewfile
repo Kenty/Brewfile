@@ -1,3 +1,10 @@
+# Install command-line tools using Homebrew
+
+# Make sure we're using the latest Homebrew
+update
+
+# Upgrade any already-installed formulae
+upgrade
 
 # tap repositories and their packages
 
@@ -88,6 +95,7 @@ install atk
 install autoconf
 install automake
 install awscli
+install bash
 install bash-completion
 install bison
 install cairo
@@ -211,3 +219,6 @@ appstore StuffIt Expander
 appstore TextWrangler
 appstore Xcode
 appstore YoruFukurou
+
+#Remove outdated versions from thw cellar
+cleanup
