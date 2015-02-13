@@ -1,10 +1,3 @@
-# Install command-line tools using Homebrew
-
-# Make sure we're using the latest Homebrew
-update
-
-# Upgrade any already-installed formulae
-upgrade
 
 # tap repositories and their packages
 
@@ -15,7 +8,13 @@ cask install alfred
 cask install betterzipql
 cask install bitcasa
 cask install colorpicker
+cask install copy
+cask install dash
+cask install evernote
+cask install fontprep
 cask install framer-studio
+cask install imagealpha
+cask install pixelapse
 cask install qlcolorcode
 cask install qlmarkdown
 cask install qlprettypatch
@@ -29,6 +28,12 @@ cask install vagrant-manager
 ## homebrew/apache
 tap homebrew/apache
 install httpd22
+cask install alfred
+cask install dash
+cask install evernote
+cask install fontprep
+cask install imagealpha
+cask install pixelapse
 
 ## homebrew/dupes
 tap homebrew/dupes
@@ -37,6 +42,7 @@ install groff
 install rsync
 install tidy
 install zlib
+cask install evernote
 
 ## homebrew/nginx
 tap homebrew/nginx
@@ -71,6 +77,10 @@ install openjpeg21
 
 ## josegonzalez/php
 tap josegonzalez/php
+
+## karan/karan
+tap karan/karan
+install gitignore
 
 ## rcmdnk/file
 tap rcmdnk/file
@@ -220,5 +230,7 @@ appstore TextWrangler
 appstore Xcode
 appstore YoruFukurou
 
-#Remove outdated versions from thw cellar
+# Other commands
+update
+upgrade
 cleanup
