@@ -14,6 +14,7 @@ cask install evernote
 cask install fontprep
 cask install framer-studio
 cask install imagealpha
+cask install imageoptim
 cask install pixelapse
 cask install qlcolorcode
 cask install qlmarkdown
@@ -28,12 +29,6 @@ cask install vagrant-manager
 ## homebrew/apache
 tap homebrew/apache
 install httpd22
-cask install alfred
-cask install dash
-cask install evernote
-cask install fontprep
-cask install imagealpha
-cask install pixelapse
 
 ## homebrew/dupes
 tap homebrew/dupes
@@ -42,7 +37,6 @@ install groff
 install rsync
 install tidy
 install zlib
-cask install evernote
 
 ## homebrew/nginx
 tap homebrew/nginx
@@ -113,7 +107,7 @@ install chromedriver
 install cmake
 install colordiff
 install ctags
-install curl
+install curl --with-libssh2 --with-libressl
 install czmq
 install fish
 install fontconfig
@@ -147,9 +141,11 @@ install libcroco
 install libffi
 install liblqr
 install libpng
+install libressl
 install librsvg
 install libsodium
 install libspiro
+install libssh2
 install libtiff
 install libtool
 install libyaml
@@ -204,9 +200,7 @@ appstore Cappuccino
 appstore CheatSheet
 appstore CloudClip Manager
 appstore Code Journal
-appstore Dash
 appstore Duo
-appstore Evernote
 appstore Folx GO
 appstore ForkLift
 appstore FreeMan
@@ -231,6 +225,4 @@ appstore Xcode
 appstore YoruFukurou
 
 # Other commands
-update
-upgrade
-cleanup
+git git@github.com:Kenty/Brewfile
