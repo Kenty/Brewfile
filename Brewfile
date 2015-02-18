@@ -8,33 +8,14 @@ cask install alfred
 cask install betterzipql
 cask install bitcasa
 cask install colorpicker
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ac67820... [MyTeam][#FeatureId]-Description of the feature
->>>>>>> "Update the package list"
 cask install copy
 cask install dash
 cask install evernote
 cask install fontprep
 cask install framer-studio
 cask install imagealpha
-<<<<<<< HEAD
 cask install imageoptim
 cask install pixelapse
-=======
-<<<<<<< HEAD
-cask install imageoptim
-cask install pixelapse
-=======
-cask install framer-studio
->>>>>>> bd56076... [MyTeam][#FeatureId]-Description of the feature
-=======
-cask install pixelapse
->>>>>>> ac67820... [MyTeam][#FeatureId]-Description of the feature
->>>>>>> "Update the package list"
 cask install qlcolorcode
 cask install qlmarkdown
 cask install qlprettypatch
@@ -48,15 +29,6 @@ cask install vagrant-manager
 ## homebrew/apache
 tap homebrew/apache
 install httpd22
-<<<<<<< HEAD
-=======
-cask install alfred
-cask install dash
-cask install evernote
-cask install fontprep
-cask install imagealpha
-cask install pixelapse
->>>>>>> "Update the package list"
 
 ## homebrew/dupes
 tap homebrew/dupes
@@ -65,10 +37,6 @@ install groff
 install rsync
 install tidy
 install zlib
-<<<<<<< HEAD
-=======
-cask install evernote
->>>>>>> "Update the package list"
 
 ## homebrew/nginx
 tap homebrew/nginx
@@ -104,25 +72,10 @@ install openjpeg21
 ## josegonzalez/php
 tap josegonzalez/php
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ac67820... [MyTeam][#FeatureId]-Description of the feature
->>>>>>> "Update the package list"
 ## karan/karan
 tap karan/karan
 install gitignore
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> bd56076... [MyTeam][#FeatureId]-Description of the feature
-=======
->>>>>>> ac67820... [MyTeam][#FeatureId]-Description of the feature
->>>>>>> "Update the package list"
 ## rcmdnk/file
 tap rcmdnk/file
 install brew-file
@@ -146,18 +99,7 @@ install atk
 install autoconf
 install automake
 install awscli
-<<<<<<< HEAD
 install bash
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-install bash
-=======
->>>>>>> bd56076... [MyTeam][#FeatureId]-Description of the feature
-=======
-install bash
->>>>>>> 907beb3... [MyTeam][#FeatureId]-Description of the feature
->>>>>>> "Update the package list"
 install bash-completion
 install bison
 install cairo
@@ -165,15 +107,7 @@ install chromedriver
 install cmake
 install colordiff
 install ctags
-<<<<<<< HEAD
 install curl --with-libssh2 --with-libressl
-=======
-<<<<<<< HEAD
-install curl --with-libssh2 --with-libressl
-=======
-install curl
->>>>>>> bd56076... [MyTeam][#FeatureId]-Description of the feature
->>>>>>> "Update the package list"
 install czmq
 install fish
 install fontconfig
@@ -207,23 +141,11 @@ install libcroco
 install libffi
 install liblqr
 install libpng
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> "Update the package list"
 install libressl
 install librsvg
 install libsodium
 install libspiro
 install libssh2
-<<<<<<< HEAD
-=======
-=======
-install librsvg
-install libsodium
-install libspiro
->>>>>>> bd56076... [MyTeam][#FeatureId]-Description of the feature
->>>>>>> "Update the package list"
 install libtiff
 install libtool
 install libyaml
@@ -278,17 +200,7 @@ appstore Cappuccino
 appstore CheatSheet
 appstore CloudClip Manager
 appstore Code Journal
-<<<<<<< HEAD
 appstore Duo
-=======
-<<<<<<< HEAD
-appstore Duo
-=======
-appstore Dash
-appstore Duo
-appstore Evernote
->>>>>>> bd56076... [MyTeam][#FeatureId]-Description of the feature
->>>>>>> "Update the package list"
 appstore Folx GO
 appstore ForkLift
 appstore FreeMan
@@ -311,23 +223,6 @@ appstore StuffIt Expander
 appstore TextWrangler
 appstore Xcode
 appstore YoruFukurou
-<<<<<<< HEAD
 
 # Other commands
 git git@github.com:Kenty/Brewfile
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-# Other commands
-git git@github.com:Kenty/Brewfile
-=======
->>>>>>> bd56076... [MyTeam][#FeatureId]-Description of the feature
-=======
-
-# Other commands
-update
-upgrade
-cleanup
->>>>>>> 907beb3... [MyTeam][#FeatureId]-Description of the feature
->>>>>>> "Update the package list"
