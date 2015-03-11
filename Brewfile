@@ -98,7 +98,6 @@ install apr-util
 install atk
 install autoconf
 install automake
-install awscli
 install bash
 install bash-completion
 install bison
