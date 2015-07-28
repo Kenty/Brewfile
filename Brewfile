@@ -1,195 +1,199 @@
 
 # tap repositories and their packages
 
+## --repair
+tap --repair
+
+## Caskroom/cask
+tap Caskroom/cask
+brew brew-cask
+cask alfred
+cask betterzipql
+cask bitcasa
+cask colorpicker
+cask copy
+cask dash
+cask evernote
+cask fontprep
+cask framer-studio
+cask imagealpha
+cask imageoptim
+cask pixelapse
+cask qlcolorcode
+cask qlmarkdown
+cask qlprettypatch
+cask qlstephen
+cask quicklook-csv
+cask quicklook-json
+cask sketch-tool
+cask suspicious-package
+cask vagrant-manager
+
 ## caskroom/cask
 tap caskroom/cask
-install brew-cask
-cask install alfred
-cask install betterzipql
-cask install bitcasa
-cask install colorpicker
-cask install copy
-cask install dash
-cask install evernote
-cask install fontprep
-cask install framer-studio
-cask install imagealpha
-cask install imageoptim
-cask install pixelapse
-cask install qlcolorcode
-cask install qlmarkdown
-cask install qlprettypatch
-cask install qlstephen
-cask install quicklook-csv
-cask install quicklook-json
-cask install sketch-tool
-cask install suspicious-package
-cask install vagrant-manager
 
 ## homebrew/apache
 tap homebrew/apache
-install httpd22
+brew httpd22
 
 ## homebrew/dupes
 tap homebrew/dupes
-install apple-gcc42
-install groff
-install rsync
-install tidy
-install zlib
+brew apple-gcc42
+brew groff
+brew rsync
+brew zlib
 
 ## homebrew/nginx
 tap homebrew/nginx
-install nginx-full --with-gzip-static --with-spdy --with-upload-module
-install upload-nginx-module
+brew nginx-full --with-gzip-static --with-spdy --with-upload-module
+brew upload-nginx-module
 
 ## homebrew/php
 tap homebrew/php
-install composer
-install php-code-sniffer
-install php-cs-fixer
-install php54-apc
-install php54-imagick
-install php54-mcrypt
-install php54-xdebug
-install php54 --with-imap --with-debug --with-homebrew-libxslt --with-fpm --with-homebrew-openssl --homebrew-apxs --with-gmp --without-snmp --with-postgresql
-install phplint
-install phpmd
-install phpmyadmin
-install phpunit
-install wp-cli
+brew composer
+brew php-code-sniffer
+brew php-cs-fixer
+brew php54-apc
+brew php54-imagick
+brew php54-mcrypt
+brew php54-xdebug
+brew php54
+brew phplint
+brew phpmd
+brew phpmyadmin
+brew phpunit
+brew wp-cli
 
 ## homebrew/versions
 tap homebrew/versions
-install cloog018
-install gcc48
-install gmp4
-install isl011
-install libmpc08
-install mpfr2
-install openjpeg21
-
-## josegonzalez/php
-tap josegonzalez/php
+brew cloog018
+brew gcc48
+brew gmp4
+brew isl011
+brew libmpc08
+brew mpfr2
+brew openjpeg21
 
 ## karan/karan
 tap karan/karan
-install gitignore
+brew gitignore
 
 ## rcmdnk/file
 tap rcmdnk/file
-install brew-file
+brew brew-file
 
 ## sanemat/font
 tap sanemat/font
-install ricty
+brew ricty
 
 ## sitespeedio/sitespeedio
 tap sitespeedio/sitespeedio
-install sitespeed.io
+brew sitespeed.io
 
 ## tobli/browsertime
 tap tobli/browsertime
-install browsertime
+brew browsertime
 
 # Other Homebrew packages
-install apr
-install apr-util
-install atk
-install autoconf
-install automake
-install bash
-install bash-completion
-install bison
-install cairo
-install chromedriver
-install cmake
-install colordiff
-install ctags
-install curl --with-libssh2 --with-libressl
-install czmq
-install fish
-install fontconfig
-install fontforge
-install freetype
-install gdbm
-install gdk-pixbuf
-install gettext
-install giflib
-install git
-install git-flow
-install git-ftp
-install glib
-install gmp
-install gnu-tar
-install gobject-introspection
-install gtk+
-install harfbuzz
-install htop-osx
-install hub
-install icu4c
-install imagemagick --with-jp2 --with-librsvg --with-libtiff --with-fontconfig --with-little-cms2 --with-little-cms --with-webp --with-x11 --with-liblqr --enable-hdri
-install imap-uw
-install jenkins
-install jhead
-install jpeg
-install jpegoptim
-install jq
-install keychain
-install libcroco
-install libffi
-install liblqr
-install libpng
-install libressl
-install librsvg
-install libsodium
-install libspiro
-install libssh2
-install libtiff
-install libtool
-install libyaml
-install little-cms
-install little-cms2
-install lua
-install makedepend
-install mcrypt
-install mhash
-install mysql
-install openssl
-install optipng
-install ossp-uuid
-install pango
-install passenger
-install pcre
-install phantomjs
-install pidof
-install pixman
-install pkg-config
-install postgresql
-install pstree
-install python
-install python3
-install rbenv
-install rbenv-default-gems
-install rbenv-gemset
-install readline
-install ruby-build
-install sl
-install sqlite
-install ssh-copy-id
-install tig
-install tree
-install ttfautohint
-install unixodbc
-install vim --with-lua
-install watch
-install webkit2png
-install webp
-install wget
-install xz
-install zeromq
-install zsh
-install zsh-completions
+brew apr
+brew apr-util
+brew atk
+brew autoconf
+brew automake
+brew bash
+brew bash-completion
+brew bison
+brew cairo
+brew chromedriver
+brew cmake
+brew colordiff
+brew ctags
+brew curl --with-libssh2 --with-libressl
+brew czmq
+brew fish
+brew fontconfig
+brew fontforge
+brew freetype
+brew gdbm
+brew gdk-pixbuf
+brew giflib
+brew git
+brew git-flow
+brew git-ftp
+brew glib
+brew gmp
+brew gnu-tar
+brew gobject-introspection
+brew gtk+
+brew harfbuzz
+brew htop-osx
+brew hub
+brew icu4c
+brew imagemagick --with-jp2 --with-librsvg --with-libtiff --with-fontconfig --with-little-cms2 --with-little-cms --with-webp --with-x11 --with-liblqr --enable-hdri
+brew imap-uw
+brew jenkins
+brew jhead
+brew jpeg
+brew jpegoptim
+brew jq
+brew keychain
+brew libcroco
+brew libffi
+brew liblqr
+brew libpng
+brew libressl
+brew librsvg
+brew libsodium
+brew libspiro
+brew libssh2
+brew libtiff
+brew libtool
+brew libyaml
+brew little-cms
+brew little-cms2
+brew lua
+brew makedepend
+brew mcrypt
+brew mhash
+brew mysql
+brew openssl
+brew optipng
+brew ossp-uuid
+brew pango
+brew passenger
+brew pcre
+brew phantomjs
+brew pidof
+brew pixman
+brew pkg-config
+brew postgresql
+brew pstree
+brew python
+brew python3
+brew rbenv
+brew rbenv-default-gems
+brew rbenv-gemset
+brew readline
+brew ruby-build
+brew sketch-toolbox
+brew sl
+brew sqlite
+brew ssh-copy-id
+brew tidy
+brew tig
+brew tmux
+brew tree
+brew ttfautohint
+brew unixodbc
+brew vim --with-lua
+brew watch
+brew webkit2png
+brew webp
+brew wget
+brew xz
+brew zeromq
+brew zsh
+brew zsh-completions
 
 # App Store applications
 appstore Authy Bluetooth
