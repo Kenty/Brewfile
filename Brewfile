@@ -9,7 +9,6 @@ tap Caskroom/cask
 brew brew-cask
 cask alfred
 cask betterzipql
-cask bitcasa
 cask colorpicker
 cask copy
 cask dash
@@ -18,6 +17,7 @@ cask fontprep
 cask framer-studio
 cask imagealpha
 cask imageoptim
+cask pixate-studio
 cask pixelapse
 cask qlcolorcode
 cask qlmarkdown
@@ -26,15 +26,18 @@ cask qlstephen
 cask quicklook-csv
 cask quicklook-json
 cask sketch-tool
+cask sketch-toolbox
 cask suspicious-package
 cask vagrant-manager
+cask vagrant
+cask virtualbox
 
 ## caskroom/cask
 tap caskroom/cask
 
 ## homebrew/apache
 tap homebrew/apache
-brew httpd22
+brew httpd24
 
 ## homebrew/dupes
 tap homebrew/dupes
@@ -100,6 +103,7 @@ brew apr-util
 brew atk
 brew autoconf
 brew automake
+brew awscli
 brew bash
 brew bash-completion
 brew bison
@@ -116,6 +120,7 @@ brew fontforge
 brew freetype
 brew gdbm
 brew gdk-pixbuf
+brew gettext hicolor-icon-theme libevent oniguruma
 brew giflib
 brew git
 brew git-flow
@@ -129,7 +134,7 @@ brew harfbuzz
 brew htop-osx
 brew hub
 brew icu4c
-brew imagemagick --with-jp2 --with-librsvg --with-libtiff --with-fontconfig --with-little-cms2 --with-little-cms --with-webp --with-x11 --with-liblqr --enable-hdri
+brew imagemagick --with-fontconfig
 brew imap-uw
 brew jenkins
 brew jhead
@@ -164,6 +169,7 @@ brew passenger
 brew pcre
 brew phantomjs
 brew pidof
+brew pixate-studio
 brew pixman
 brew pkg-config
 brew postgresql
@@ -194,6 +200,9 @@ brew xz
 brew zeromq
 brew zsh
 brew zsh-completions
+
+# Cask applications
+cask Caskroom/cask/pixate-studio
 
 # App Store applications
 appstore Authy Bluetooth
