@@ -7,7 +7,6 @@ tap --repair
 ## Caskroom/cask
 tap Caskroom/cask
 brew brew-cask
-cask alfred
 cask betterzipql
 cask colorpicker
 cask copy
@@ -168,7 +167,6 @@ brew passenger
 brew pcre
 brew phantomjs
 brew pidof
-brew pixate-studio
 brew pixman
 brew pkg-config
 brew postgresql
