@@ -17,7 +17,6 @@ cask fontprep
 cask framer-studio
 cask imagealpha
 cask imageoptim
-cask pixate-studio
 cask pixelapse
 cask qlcolorcode
 cask qlmarkdown
@@ -200,9 +199,6 @@ brew xz
 brew zeromq
 brew zsh
 brew zsh-completions
-
-# Cask applications
-cask Caskroom/cask/pixate-studio
 
 # App Store applications
 appstore Authy Bluetooth
