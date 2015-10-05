@@ -7,6 +7,7 @@ tap --repair
 ## Caskroom/cask
 tap Caskroom/cask
 brew brew-cask
+cask alfred
 cask betterzipql
 cask colorpicker
 cask copy
@@ -97,7 +98,6 @@ brew browsertime
 brew apr
 brew apr-util
 brew atk
-brew autoconf
 brew automake
 brew awscli
 brew bash
@@ -197,7 +197,6 @@ brew zsh-completions
 
 # App Store applications
 appstore Authy Bluetooth
-appstore BattleNations
 appstore Caffeine
 appstore Cappuccino
 appstore CheatSheet
@@ -211,7 +210,6 @@ appstore Gapplin
 appstore GarageBand
 appstore Growl
 appstore iMovie
-appstore iPhoto
 appstore JPEGmini Lite
 appstore MindNode Lite
 appstore PixelPumper
