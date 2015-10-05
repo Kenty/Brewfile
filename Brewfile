@@ -24,6 +24,7 @@ cask qlprettypatch
 cask qlstephen
 cask quicklook-csv
 cask quicklook-json
+cask sketch-toolbox
 cask suspicious-package
 cask vagrant-manager
 cask vagrant
