@@ -23,8 +23,6 @@ cask qlprettypatch
 cask qlstephen
 cask quicklook-csv
 cask quicklook-json
-cask sketch-tool
-cask sketch-toolbox
 cask suspicious-package
 cask vagrant-manager
 cask vagrant
@@ -178,7 +176,6 @@ brew rbenv-default-gems
 brew rbenv-gemset
 brew readline
 brew ruby-build
-brew sketch-toolbox
 brew sl
 brew sqlite
 brew ssh-copy-id
@@ -221,7 +218,6 @@ appstore PixelPumper
 appstore Pocket
 appstore Recents
 appstore Skala Preview
-appstore Sketch
 appstore Skitch
 appstore Slack
 appstore SpriteRight
