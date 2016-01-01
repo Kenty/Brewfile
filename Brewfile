@@ -111,7 +111,7 @@ brew cmake
 brew colordiff
 brew composer
 brew ctags
-brew curl --with-libssh2 --with-libressl --with-libssh2 --with-libressl
+brew curl --with-libssh2 --with-libressl
 brew czmq
 brew fish
 brew fontconfig
@@ -135,7 +135,7 @@ brew hicolor-icon-theme
 brew htop-osx
 brew hub
 brew icu4c
-brew imagemagick --with-fontconfig --with-little-cms --with-little-cms2
+brew imagemagick --with-fontconfig --with-little-cms --with-little-cms2 --with-fontconfig --with-little-cms --with-little-cms2
 brew imap-uw
 brew jenkins
 brew jhead
@@ -235,6 +235,3 @@ appstore StuffIt Expander
 appstore TextWrangler
 appstore Xcode
 appstore YoruFukurou
-
-# Other commands
-# git Kenty/Brewfile
