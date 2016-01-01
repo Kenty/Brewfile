@@ -26,6 +26,7 @@ cask quicklook-csv
 cask quicklook-json
 cask sketch-toolbox
 cask suspicious-package
+cask textwrangler
 cask vagrant-manager
 cask vagrant
 cask virtualbox
@@ -42,7 +43,6 @@ tap homebrew/dupes
 brew apple-gcc42
 brew groff
 brew rsync
-brew zlib
 
 ## homebrew/nginx
 tap homebrew/nginx
@@ -51,9 +51,6 @@ brew upload-nginx-module
 
 ## homebrew/php
 tap homebrew/php
-brew composer
-brew php-code-sniffer
-brew php-cs-fixer
 brew php54-apc
 brew php54-imagick
 brew php54-mcrypt
@@ -96,6 +93,10 @@ tap tobli/browsertime
 brew browsertime
 
 # Other Homebrew packages
+brew zlib
+brew composer
+brew php-code-sniffer
+brew php-cs-fixer
 brew apr
 brew apr-util
 brew atk
