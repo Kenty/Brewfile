@@ -7,6 +7,9 @@ tap --repair
 ## Caskroom/cask
 tap Caskroom/cask
 brew brew-cask
+cask adobe-creative-cloud
+cask adobe-illustrator-cc
+cask adobe-photoshop-cc
 cask alfred
 cask betterzipql
 cask colorpicker
@@ -15,6 +18,9 @@ cask dash
 cask evernote
 cask fontprep
 cask framer-studio
+cask github-desktop
+cask google-chrome
+cask google-drive
 cask imagealpha
 cask imageoptim
 cask pixelapse
@@ -24,7 +30,9 @@ cask qlprettypatch
 cask qlstephen
 cask quicklook-csv
 cask quicklook-json
+cask rightfont
 cask sketch-toolbox
+cask sourcetree
 cask suspicious-package
 cask textwrangler
 cask vagrant-manager
@@ -93,13 +101,10 @@ tap tobli/browsertime
 brew browsertime
 
 # Other Homebrew packages
-brew zlib
-brew composer
-brew php-code-sniffer
-brew php-cs-fixer
 brew apr
 brew apr-util
 brew atk
+brew autoconf
 brew automake
 brew awscli
 brew bash
@@ -109,6 +114,7 @@ brew cairo
 brew chromedriver
 brew cmake
 brew colordiff
+brew composer
 brew ctags
 brew curl --with-libssh2 --with-libressl
 brew czmq
@@ -166,6 +172,8 @@ brew pango
 brew passenger
 brew pcre
 brew phantomjs
+brew php-code-sniffer
+brew php-cs-fixer
 brew pidof
 brew pixman
 brew pkg-config
@@ -194,6 +202,7 @@ brew webp
 brew wget
 brew xz
 brew zeromq
+brew zlib
 brew zsh
 brew zsh-completions
 
