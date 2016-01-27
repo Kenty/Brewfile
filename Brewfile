@@ -1,9 +1,9 @@
 
 # tap repositories and their packages
 
-## caskroom/cask
 tap caskroom/cask
 brew brew-cask
+cask 1password
 cask adobe-creative-cloud
 cask adobe-illustrator-cc
 cask adobe-photoshop-cc
@@ -13,6 +13,7 @@ cask colorpicker
 cask copy
 cask dash
 cask evernote
+cask firefox
 cask fontprep
 cask framer-studio
 cask github-desktop
@@ -21,6 +22,7 @@ cask google-drive
 cask imagealpha
 cask imageoptim
 cask pixelapse
+cask prott
 cask qlcolorcode
 cask qlmarkdown
 cask qlprettypatch
@@ -36,22 +38,20 @@ cask vagrant-manager
 cask vagrant
 cask virtualbox
 
-## homebrew/apache
+tap caskroom/homebrew-versions
+
 tap homebrew/apache
 brew httpd24
 
-## homebrew/dupes
 tap homebrew/dupes
 brew apple-gcc42
 brew groff
 brew rsync
 
-## homebrew/nginx
 tap homebrew/nginx
 brew nginx-full --with-gzip-static --with-spdy --with-upload-module
 brew upload-nginx-module
 
-## homebrew/php
 tap homebrew/php
 brew php54-apc
 brew php54-imagick
@@ -64,7 +64,6 @@ brew phpmyadmin
 brew phpunit
 brew wp-cli
 
-## homebrew/versions
 tap homebrew/versions
 brew cloog018
 brew gcc48
@@ -74,23 +73,18 @@ brew libmpc08
 brew mpfr2
 brew openjpeg21
 
-## karan/karan
 tap karan/karan
 brew gitignore
 
-## rcmdnk/file
 tap rcmdnk/file
 brew brew-file
 
-## sanemat/font
 tap sanemat/font
 brew ricty
 
-## sitespeedio/sitespeedio
 tap sitespeedio/sitespeedio
 brew sitespeed.io
 
-## tobli/browsertime
 tap tobli/browsertime
 brew browsertime
 
@@ -120,6 +114,7 @@ brew freetype
 brew gdbm
 brew gdk-pixbuf
 brew gettext
+brew gibo
 brew giflib
 brew git
 brew git-flow
@@ -205,6 +200,11 @@ brew zeromq
 brew zlib
 brew zsh
 brew zsh-completions
+
+# Cask applications
+cask firefoxdeveloperedition
+cask google-chrome-canary
+cask sublime-text3
 
 # App Store applications
 appstore Authy Bluetooth
