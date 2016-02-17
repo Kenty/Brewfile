@@ -38,8 +38,6 @@ cask vagrant-manager
 cask vagrant
 cask virtualbox
 
-tap caskroom/homebrew-versions
-
 tap homebrew/apache
 brew httpd24
 
@@ -49,7 +47,7 @@ brew groff
 brew rsync
 
 tap homebrew/nginx
-brew nginx-full --with-gzip-static --with-spdy --with-upload-module
+brew nginx-full --with-gzip-static --with-spdy --with-upload-module --with-gzip-static --with-spdy --with-upload-module
 brew upload-nginx-module
 
 tap homebrew/php
@@ -105,7 +103,7 @@ brew cmake
 brew colordiff
 brew composer
 brew ctags
-brew curl --with-libssh2 --with-libressl
+brew curl --with-libssh2 --with-libressl --with-libssh2 --with-libressl
 brew czmq
 brew fish
 brew fontconfig
@@ -190,7 +188,7 @@ brew tmux
 brew tree
 brew ttfautohint
 brew unixodbc
-brew vim --with-lua --with-lua
+brew vim --with-lua --with-lua --with-lua
 brew watch
 brew webkit2png
 brew webp
@@ -201,10 +199,12 @@ brew zlib
 brew zsh
 brew zsh-completions
 
-# Cask applications
-cask firefoxdeveloperedition
-cask google-chrome-canary
-cask sublime-text3
+# Below applications were installed by Cask,
+# but do not have corresponding casks.
+
+#cask firefoxdeveloperedition (!)
+#cask google-chrome-canary (!)
+#cask sublime-text3 (!)
 
 # App Store applications
 appstore Authy Bluetooth
@@ -232,6 +232,5 @@ appstore Skitch
 appstore Slack
 appstore SpriteRight
 appstore StuffIt Expander
-appstore TextWrangler
 appstore Xcode
 appstore YoruFukurou
