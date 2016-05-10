@@ -54,6 +54,7 @@ brew httpd24
 
 tap homebrew/core
 brew apr-util
+brew apr
 brew atk
 brew autoconf
 brew automake
@@ -63,6 +64,7 @@ brew bash
 brew bison
 brew boost
 brew cairo
+brew chromedriver
 brew cmake
 brew colordiff
 brew ctags
@@ -76,10 +78,13 @@ brew gdbm
 brew gdk-pixbuf
 brew gettext
 brew gibo
+brew giflib
 brew git-flow
 brew git-ftp
 brew git
+brew glib
 brew gmp
+brew gnu-tar
 brew gobject-introspection
 brew gsl
 brew gtk+
@@ -87,6 +92,7 @@ brew harfbuzz
 brew hicolor-icon-theme
 brew highlight
 brew htop-osx
+brew hub
 brew icu4c
 brew imagemagick
 brew imap-uw
@@ -100,6 +106,7 @@ brew keychain
 brew libcroco
 brew libevent
 brew libffi
+brew liblqr
 brew libpng
 brew libressl
 brew librsvg
@@ -123,6 +130,7 @@ brew openssl
 brew optipng
 brew ossp-uuid
 brew pango
+brew passenger
 brew pcre
 brew peco
 brew phantomjs
@@ -160,12 +168,16 @@ tap homebrew/dupes
 brew apple-gcc42
 brew groff
 brew rsync
+brew zlib
 
 tap homebrew/nginx
 brew nginx-full
 brew upload-nginx-module
 
 tap homebrew/php
+brew composer
+brew php-code-sniffer
+brew php-cs-fixer
 brew php54-apc
 brew php54-imagick
 brew php54-mcrypt
@@ -200,20 +212,6 @@ brew sitespeed.io
 
 tap tobli/browsertime
 brew browsertime
-
-# Other Homebrew packages
-brew apr
-brew chromedriver
-brew composer
-brew giflib
-brew glib
-brew gnu-tar
-brew hub
-brew liblqr
-brew passenger
-brew php-code-sniffer
-brew php-cs-fixer
-brew zlib
 
 # App Store applications
 appstore 668841348 Authy Bluetooth
