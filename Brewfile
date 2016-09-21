@@ -1,12 +1,7 @@
 
 # tap repositories and their packages
 
-tap argon/mas
-brew mas
-
-tap caius/jo
-
-tap caskroom/cask
+tap Caskroom/cask
 cask 1password
 cask adobe-creative-cloud
 cask adobe-illustrator-cc
@@ -19,13 +14,13 @@ cask dash
 cask evernote
 cask firefox
 cask fontprep
-cask framer-studio
 cask github-desktop
 cask google-chrome
 cask google-drive
 cask imagealpha
 cask imageoptim
 cask inkscape
+cask iterm2
 cask pixelapse
 cask prott
 cask qlcolorcode
@@ -44,10 +39,16 @@ cask vagrant
 cask versions
 cask virtualbox
 
+tap argon/mas
+brew mas
+
+tap caius/jo
+
+tap caskroom/cask
+
 tap caskroom/versions
 cask firefoxdeveloperedition-ja
 cask google-chrome-canary
-cask sublime-text3
 
 tap homebrew/apache
 brew httpd24
@@ -196,10 +197,6 @@ brew gmp4
 brew isl011
 brew libmpc08
 brew mpfr2
-brew openjpeg21
-
-tap karan/karan
-brew gitignore
 
 tap rcmdnk/file
 brew brew-file
@@ -210,8 +207,12 @@ brew ricty
 tap sitespeedio/sitespeedio
 brew sitespeed.io
 
-tap tobli/browsertime
-brew browsertime
+# Other Homebrew packages
+brew openjpeg21
+
+# Cask applications
+cask framer-studio
+cask sublime-text3
 
 # App Store applications
 appstore 668841348 Authy Bluetooth
