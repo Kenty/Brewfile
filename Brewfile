@@ -44,8 +44,6 @@ brew mas
 
 tap caius/jo
 
-tap caskroom/cask
-
 tap caskroom/versions
 cask firefoxdeveloperedition-ja
 cask google-chrome-canary
@@ -62,6 +60,13 @@ brew automake
 brew awscli
 brew bash-completion
 brew bash
+
+# Switch to using brew-installed bash as default shell
+if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
+  echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
+  chsh  -s /usr/local/bin/bash;
+fi;
+
 brew bison
 brew boost
 brew cairo
@@ -204,15 +209,12 @@ brew brew-file
 tap sanemat/font
 brew ricty
 
-tap sitespeedio/sitespeedio
-brew sitespeed.io
-
 # Other Homebrew packages
+brew sitespeed.io
 brew openjpeg21
 
 # Cask applications
 cask framer-studio
-cask sublime-text3
 
 # App Store applications
 appstore 668841348 Authy Bluetooth
