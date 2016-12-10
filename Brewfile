@@ -4,8 +4,6 @@
 tap Caskroom/cask
 cask 1password
 cask adobe-creative-cloud
-cask adobe-illustrator-cc
-cask adobe-photoshop-cc
 cask alfred
 cask betterzipql
 cask colorpicker
@@ -45,28 +43,20 @@ brew mas
 tap caius/jo
 
 tap caskroom/versions
-cask firefoxdeveloperedition-ja
 cask google-chrome-canary
 
 tap homebrew/apache
 brew httpd24
 
 tap homebrew/core
-brew apr-util
 brew apr
+brew apr-util
 brew atk
 brew autoconf
 brew automake
 brew awscli
-brew bash-completion
 brew bash
-
-# Switch to using brew-installed bash as default shell
-if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
-  echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
-  chsh  -s /usr/local/bin/bash;
-fi;
-
+brew bash-completion
 brew bison
 brew boost
 brew cairo
@@ -85,12 +75,13 @@ brew gdk-pixbuf
 brew gettext
 brew gibo
 brew giflib
+brew git
 brew git-flow
 brew git-ftp
-brew git
 brew glib
 brew gmp
 brew gnu-tar
+brew gnutls
 brew gobject-introspection
 brew gsl
 brew gtk+
@@ -120,6 +111,7 @@ brew libsass
 brew libsodium
 brew libspiro
 brew libssh2
+brew libtasn1
 brew libtiff
 brew libtool
 brew libxml2
@@ -131,6 +123,7 @@ brew makedepend
 brew mcrypt
 brew mhash
 brew mysql
+brew nettle
 brew oniguruma
 brew openssl
 brew optipng
@@ -147,11 +140,13 @@ brew postgresql
 brew pstree
 brew python
 brew python3
+brew qemu
+brew rbenv
 brew rbenv-default-gems
 brew rbenv-gemset
-brew rbenv
 brew readline
 brew ruby-build
+brew shared-mime-info
 brew sl
 brew sqlite
 brew ssh-copy-id
@@ -167,8 +162,8 @@ brew webp
 brew wget
 brew xz
 brew zeromq
-brew zsh-completions
 brew zsh
+brew zsh-completions
 
 tap homebrew/dupes
 brew apple-gcc42
@@ -182,17 +177,6 @@ brew upload-nginx-module
 
 tap homebrew/php
 brew composer
-brew php-code-sniffer
-brew php-cs-fixer
-brew php54-apc
-brew php54-imagick
-brew php54-mcrypt
-brew php54-xdebug
-brew php54
-brew phplint
-brew phpmd
-brew phpmyadmin
-brew phpunit
 brew wp-cli
 
 tap homebrew/versions
@@ -210,10 +194,11 @@ tap sanemat/font
 brew ricty
 
 # Other Homebrew packages
-brew sitespeed.io
 brew openjpeg21
+brew sitespeed.io
 
 # Cask applications
+cask firefoxdeveloperedition-ja
 cask framer-studio
 
 # App Store applications
@@ -244,3 +229,9 @@ appstore 405580712 StuffIt Expander
 appstore 497799835 Xcode
 appstore 428834068 YoruFukurou
 appstore 408981434 iMovie
+
+# Other commands
+if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
+echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
+chsh  -s /usr/local/bin/bash;
+fi;
