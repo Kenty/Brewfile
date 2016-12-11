@@ -198,7 +198,6 @@ brew openjpeg21
 brew sitespeed.io
 
 # Cask applications
-cask firefoxdeveloperedition-ja
 cask framer-studio
 
 # App Store applications
