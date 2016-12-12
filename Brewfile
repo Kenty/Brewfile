@@ -7,7 +7,7 @@ cask adobe-creative-cloud
 cask alfred
 cask betterzipql
 cask colorpicker
-cask copy
+# cask copy
 cask dash
 cask evernote
 cask firefox
