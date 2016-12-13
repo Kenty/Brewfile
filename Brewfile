@@ -194,8 +194,6 @@ brew brew-file
 tap sanemat/font
 # brew ricty
 
-# Other Homebrew packages
-brew sitespeed.io
 
 # Cask applications
 cask framer
