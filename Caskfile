@@ -13,7 +13,7 @@ cask install google-chrome #/Applications/Google Chrome.app
 cask install google-drive #/Applications/Google Drive.app
 cask install imagealpha #/Applications/ImageAlpha.app
 cask install inkscape #/Applications/Inkscape.app
-cask install pixelapse #/Applications/Pixelapse.app
+# cask install pixelapse #/Applications/Pixelapse.app
 cask install prott #/Applications/Prott.app
 cask install sketch-toolbox #/Applications/Sketch Toolbox.app
 cask install suspicious-package #/Applications/Suspicious Package.app

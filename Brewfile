@@ -6,6 +6,7 @@ cask 1password
 cask adobe-creative-cloud
 cask alfred
 cask betterzipql
+cask caffeine
 cask colorpicker
 cask dash
 cask evernote
@@ -18,7 +19,7 @@ cask imagealpha
 cask imageoptim
 cask inkscape
 cask iterm2
-cask pixelapse
+# cask pixelapse
 cask prott
 cask qlcolorcode
 cask qlmarkdown
@@ -35,6 +36,7 @@ cask vagrant-manager
 cask vagrant
 cask versions
 cask virtualbox
+cask xquartz
 
 tap argon/mas
 brew mas
