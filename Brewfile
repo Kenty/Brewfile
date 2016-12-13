@@ -12,7 +12,6 @@ cask dash
 cask evernote
 cask firefox
 cask fontprep
-cask framer
 cask github-desktop
 cask google-chrome
 cask google-drive
@@ -20,7 +19,7 @@ cask imagealpha
 cask imageoptim
 cask inkscape
 cask iterm2
-cask java
+# cask pixelapse
 cask prott
 cask qlcolorcode
 cask qlmarkdown
@@ -193,12 +192,14 @@ tap rcmdnk/file
 brew brew-file
 
 tap sanemat/font
-brew ricty
+# brew ricty
 
 # Other Homebrew packages
 brew openjpeg21
 brew sitespeed.io
 
+# Cask applications
+cask framer
 # App Store applications
 appstore 668841348 Authy Bluetooth
 appstore 411246225 Caffeine
