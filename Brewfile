@@ -198,7 +198,7 @@ tap sanemat/font
 # Cask applications
 cask framer
 # App Store applications
-appstore 668841348 Authy Bluetooth
+# appstore 668841348 Authy Bluetooth
 appstore 411246225 Caffeine
 appstore 492594411 Cappuccino
 appstore 529456740 CheatSheet
