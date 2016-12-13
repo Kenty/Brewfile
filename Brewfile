@@ -199,8 +199,7 @@ brew openjpeg21
 brew sitespeed.io
 
 # Cask applications
-cask framer-studio
-
+cask framer
 # App Store applications
 appstore 668841348 Authy Bluetooth
 appstore 411246225 Caffeine
