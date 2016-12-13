@@ -195,7 +195,6 @@ tap sanemat/font
 # brew ricty
 
 # Other Homebrew packages
-brew openjpeg21
 brew sitespeed.io
 
 # Cask applications
